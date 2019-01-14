@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Raleway', sans-serif;;
+}
+body {
+  background-color: #dee2e8;
+}
+nav {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  font-size: 20px;
+  background-color: #dee2e8;
+}
+nav ul{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  overflow: hidden;
+}
+nav ul li {
+  display: inline;
+  cursor: pointer;
+}
+nav ul li a {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  padding-top: 3em;
+  font-weight: bold;
+}
+.greeting {
+  padding-top: 2em;
+  padding-bottom: 0.1em;
+  font-size: 3em;
+}
+.landing {
+  width: 100%;
+  height: auto;
+  background-image: url(LandingPageImage.jpeg);
+  display: flex;
+  align-items: left;
+  font-size: 40px;
+  line-height: 0.5em;
+  color: white;
+}
+.landingText {
+  padding-left: 3em;
+  padding-top: 5em;
+}
+.abouttext {
+  font-size: 20;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+.aboutme1 {
+  height: 20em;
+  float: left;
+  padding-right: 1em;
+}
+p {
+  font-size: 1.2em;
+}
+.social {
+  text-align: center;
+  margin-top: 3em;
+}
+.fa {
+  padding: 17px 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.5;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  color: white;
+  background: #38A1F3;
+}
+.fa-spotify {
+  color: black;
+  background: #1db954;
+}
+.fa-linkedin {
+  color: white;
+  background: #0077B5;
+}
+.fa-github {
+  color: #dee2e8;
+  background: #4078c0;
+}
